@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test-coverage": "jest --coverage",
+    "test-coverage-watch": "jest --coverage --watch",
     "start": "node src/index.js"
   },
   "keywords": [],
